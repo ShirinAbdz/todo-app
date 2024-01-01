@@ -26,4 +26,4 @@ const addHandler =()=> {
 
 
 
-addButton.addEventListener("click" , addHandler)
+addButton.addEventListener("click" , addHandler);
