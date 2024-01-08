@@ -121,3 +121,33 @@ tbody td button:nth-child(2){
 tbody td button:nth-child(3){
     background-color: rgb(230, 18, 18);
 }
+
+#alert-message {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.alert {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+border-radius: 9px;
+padding: 2px;
+}
+
+.alert-success{
+    width: 100%;
+    height: 40px;
+    background-color: greenyellow;
+}
+
+.alert-error{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(229, 110, 110);
+}
